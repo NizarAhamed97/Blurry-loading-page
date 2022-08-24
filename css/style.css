@@ -1,0 +1,28 @@
+/*Importing fonts.css to style.css */
+@import url(./fonts.css);
+
+body {
+    font-family: "Roboto-italic";
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    margin: 0;
+}
+
+.bg {
+    background: url(../img/karl-hedin-y_VwUUNg6FM-unsplash.jpg) no-repeat center center/cover;
+    position: absolute;
+    top: -50px;
+    left: -50px;
+    width: calc(100vw + 50px);
+    height: calc(100vh + 50px);
+    z-index: -1;
+    filter: blur(0px);
+}
+
+#loading_text {
+    font-size: 50px;
+    color: #000;
+}
